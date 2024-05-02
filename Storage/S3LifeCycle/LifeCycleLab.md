@@ -19,7 +19,7 @@ You are a cloud data engineer, and you have been asked to help reduce storage co
 1. Find and select the S3 Bucket you just created.
 2. Find and select `Upload`.
 3. Select `Add Files`.
-4. Select a small text file named 'test.txt'.
+4. Create a file and select a small text file named 'test.txt'.
 5. From the `Add Files` screen, finalize your upload by selecting `Upload`.
 
 ### 3. Create an S3 lifecycle for the S3 bucket
@@ -45,7 +45,7 @@ Adjust the following fields:
 ### 5. Verify your lifecycle policy
 
 1. Find and select the S3 Bucket name at the top of the screen to navigate back to the S3 Bucket.
-2. Under `Objects` select `test.txt`.
+2. Under `Objects` select the file you uploaded.
 3. Find the `Object management overview` and verify that the "my-lifecycle-rule" rule is shown under `Expiration rule`.
 
 ## Cleanup

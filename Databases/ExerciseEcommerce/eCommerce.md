@@ -79,3 +79,15 @@ After entering the password, you should be connected to the MySQL server and abl
 ```bash
 mysql -u root -p
 ```
+
+# Installing pip on Windows
+
+This guide will walk you through the process of installing pip on Windows.
+
+## Step 1: Check if Python is Installed
+
+pip is a package manager for Python, so you need to have Python installed on your system. You can check if Python is installed by opening Command Prompt and typing:
+
+```bash
+python --version
+```
